@@ -1,0 +1,35 @@
+modLoader = "kotlinforforge"
+loaderVersion = "[3,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "kubescript"
+version = "${version}"
+displayName = "KubeScript"
+authors = "FooterMan"
+description = '''
+Adds support for the custom KubeScript language.
+'''
+#logoFile = ""
+
+[[dependencies.kubescript]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kubescript]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.kubescript]]
+modId = "architectury"
+mandatory = true
+versionRange = "[6.5.85,)"
+ordering = "AFTER"
+side = "BOTH"
